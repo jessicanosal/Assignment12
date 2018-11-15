@@ -1,0 +1,129 @@
+body{
+	background-color:#afeeee;
+}
+
+h1{
+	font-family: 'Oregano', sans-serif;
+	text-align: center;
+	font-size: 60px;
+}
+
+#flex-container{
+	display: flex;
+	justify-content: center;
+}
+button{
+	padding: 10px;
+	border: 2px solid black;
+	background-color: #fefefe;
+	font-family: 'Archivo', san-serif;
+	margin-left:10px;
+	margin-bottom: 25px;
+}
+
+#currentTemp{
+	font-family: 'Archivo', san-serif;
+	font-size:30px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+#currentWeather{
+	font-family: 'Archivo', san-serif;
+	font-size:25px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	margin-bottom: 30px;
+}
+
+img{
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	display:block;
+}
+#cloud{
+	display:none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center
+}
+
+#img.cloud{
+	width:500px;
+	height:334px;
+}
+
+#fog{
+	display:none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center;
+}
+#img.fog{
+	width:427px;
+	height:320px;
+}
+
+#clear{
+	display:none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center;
+}
+#img.clear{
+	width:612px;
+	height:408px;
+}
+
+#rain{
+	display:none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center;
+}
+#img.rain{
+	width:480px;
+	height:360px;
+}
+
+#snow{
+	display:none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center;
+}
+#img.snow{
+	width:480px;
+	height:212px;
+}
+
+#mist{
+	display:none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center;
+}
+#img.mist{
+	width:501px;
+	height:333px;
+}
+#thunderstorm{
+	display: none;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	justify-content: center;
+}
+#img.thunder{
+	width:497px;
+	height:326px;
+}
